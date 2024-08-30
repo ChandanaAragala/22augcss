@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #424242;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    background-color: #ff8a80;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Section 1: Rotate & Background Color */
+.section1:hover {
+    transform: rotate(10deg);
+    background-color: #d32f2f;
+}
+
+/* Section 2: Scale & Resize */
+.section2 img:hover {
+    transform: scale(1.2);
+}
+
+/* Section 3: Skew & Opacity */
+.section3:hover {
+    transform: skewX(10deg);
+    opacity: 0.7;
+}
+
+/* Section 4: Translate & Text Color */
+.section4:hover {
+    transform: translateY(-10px);
+    color: #fff;
+}
